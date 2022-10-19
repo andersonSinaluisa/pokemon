@@ -1,0 +1,27 @@
+
+
+:root{
+  --primary-color:   #5D59D9;
+  --primary-color-shade:#615CF2;
+  --primary-color-shadow:#F2F2F2;
+  --primary-color-disable:#CCC2F2;
+}
+
+
+
+body{
+  color: #000f;
+  background: #F2F2F2;
+}
+
+
+
+
+.bg-primary{
+  background: var(--primary-color);
+}
+
+.text-primary{
+  color: var(--primary-color);
+}
+

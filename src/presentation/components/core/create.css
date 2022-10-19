@@ -1,0 +1,22 @@
+.content-create-card{
+    margin: 5%;
+   
+}
+
+.row-create-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.content-wrapper{
+    margin: 2%;
+}
+
+.visible{
+    display: block;
+}
+
+.gone{
+    display: none;
+}

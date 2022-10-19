@@ -1,0 +1,20 @@
+@media (min-width: 697px) {
+    .row {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+}
+
+
+@media (max-width: 690px) {
+
+    .row {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: start;
+        margin: 0;
+        width: 50%;
+    }
+
+}

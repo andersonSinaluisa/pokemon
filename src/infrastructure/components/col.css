@@ -1,0 +1,33 @@
+.col{
+    width: auto;
+}
+
+.col-1{
+    width: 8.33vw;
+}
+
+.col-2{
+    width: 16.66vw;
+}
+
+.col-3{
+    width: 24.99vw;
+
+}
+
+.col-4{
+    width: 33.32vw;
+}
+
+.col-5{
+    width: 41.65vw;
+}
+
+
+.col-6{
+    width: 50vw;
+}
+
+.col-5{
+    width: 58.31vw;
+}

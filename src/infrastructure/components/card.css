@@ -1,0 +1,36 @@
+.card{
+    width: auto;
+    background: white;
+    height: fit-content;
+    border-color: #e4e4e4;
+    border-style: solid;
+    border:2%
+}
+
+.card .card-header{
+    display: flex;
+    justify-content: center;
+    padding-block: 2%;
+}
+
+.card .card-actions{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: auto;
+    margin: 5%;
+}
+
+.card .card-actions button{
+    width: 15%;
+    margin-inline: 2%;
+    height: 5px;
+}
+@media (max-width: 697px) {
+    .card .card-actions button{
+        width: 50%;
+        height: auto;
+        margin-inline: 2%;
+    }
+
+}

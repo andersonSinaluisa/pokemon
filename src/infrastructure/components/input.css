@@ -1,0 +1,36 @@
+input{
+    width: 50%;
+    height: 35px;
+    border: 2px solid #f0f0f0;
+    outline: none;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+}
+.input-content{
+    display: flexbox;
+    margin: 0 auto;
+}
+.input-content label{
+    margin-right: 50px;
+}
+.input-content input{
+    margin-left: 5%;
+
+}
+
+.input-content input:hover{
+    border-color: #BF6B8A;
+    outline: none;
+}
+
+@media (max-width: 690px) {
+    input{
+        width: 70vw;
+        margin-left: 0%;
+    }
+  
+    .input-content{
+        margin-top: 15%;
+    }
+
+}
